@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { SITE_CONFIG, SERVICES, GALLERY_IMAGES } from "@/data/config";
-import { Phone, MapPin, Clock, Star, Scissors, CheckCircle } from "lucide-react";
+import { Phone, MapPin, Star } from "lucide-react";
 
 export default function Home() {
     return (
@@ -40,7 +40,7 @@ export default function Home() {
                         {SITE_CONFIG.location.address.split(",")[0]}
                     </h2>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white mb-6 leading-tight">
-                        KEPEZ'İN <span className="text-gold">EN ELİT</span><br />
+                        KEPEZ&apos;İN <span className="text-gold">EN ELİT</span><br />
                         ERKEK KUAFÖRÜ
                     </h1>
                     <p className="text-lg md:text-xl text-text-silver max-w-2xl mx-auto mb-10 font-light">
